@@ -5,3 +5,4 @@ Follow this steps to create the slider -
 2. Add slides to the slider.
 3. Put Below shortcode to display your slider. 
 [avd_slideshow sliderid="" count="" orderby="" order=""].
+Slider id is mandatory.
