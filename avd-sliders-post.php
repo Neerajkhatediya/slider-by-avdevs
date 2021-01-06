@@ -7,13 +7,10 @@
 function plugin_frontend_scripts() {
 	
 	
-	wp_enqueue_script( 'avd-sliders-bootstrap-js', AVD_PLUGIN_URL .'js/bootstrap.min.js');
 	wp_enqueue_script( 'avd-sliders-jquery-js', AVD_PLUGIN_URL .'js/jquery.min.js');
-	wp_enqueue_script( 'avd-sliders-unslider-js', AVD_PLUGIN_URL .'js/unslider-min.js');
-    wp_enqueue_style('avd-sliders-bootstrap-css', AVD_PLUGIN_URL.'css/bootstrap.css');
-    wp_enqueue_style('avd-sliders-bootstrap-cdn-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
-	wp_enqueue_style('avd-sliders-unslider', AVD_PLUGIN_URL.'css/unslider.css');
-	wp_enqueue_style('avd-sliders-dot', AVD_PLUGIN_URL.'css/unslider-dots.css');
+	wp_enqueue_script( 'avd-sliders-bootstrap-js', AVD_PLUGIN_URL .'js/bootstrap.min.js');
+        wp_enqueue_style('avd-sliders-bootstrap-css', AVD_PLUGIN_URL.'css/bootstrap.css');
+        wp_enqueue_style('avd-sliders-bootstrap-cdn-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
 }
 add_action('init', 'plugin_frontend_scripts');
 
